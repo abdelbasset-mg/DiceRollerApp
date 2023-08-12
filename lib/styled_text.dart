@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 
-class TextContainer extends StatelessWidget {
-  const TextContainer({super.key}) ;
+class StyledText extends StatelessWidget {
+  const StyledText({super.key}) ;
   @override
   Widget build(context) {
     return const Text( 'SURVISION',
