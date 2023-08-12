@@ -22,7 +22,7 @@ class GradientContainer extends StatelessWidget {
           colors: <Color>[
             Color(0xFFF26E23),
             Color(0xFFF24606),
-          ],
+          ], //color
         ),
       ),
       child: const Center(
