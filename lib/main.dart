@@ -3,13 +3,12 @@ import 'package:flutter/material.dart';
 import 'gradient_container.dart';
 void main() {
   runApp(
-     MaterialApp(
+     const MaterialApp(
       home: Scaffold(
-        body:  GradientContainer(const [
+        body:  GradientContainer( [
           Color(0xFFEF4D25),
           Color(0xFFF24606),
-          //Color(0xff9be3f2),
-          //Color(0xffcabdf2),
+          
         ]),
       ),
     ),
